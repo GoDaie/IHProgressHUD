@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
   s.author           = { 'mdibrahimhassan@gmail.com' => 'mdibrahimhassan@gmail.com' }
   s.source           = { :git => 'https://github.com/Swiftify-Corp/IHProgressHUD.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/IbrahimH_ss_n'
-
+  s.dependency 'Adjust', '~> 5.1.1'
+  s.dependency 'AppsFlyerFramework', '~> 6.16.0'
   s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '9.0'
   s.source_files = 'Sources/IHProgressHUD/*.swift'
